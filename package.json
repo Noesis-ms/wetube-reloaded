@@ -1,0 +1,27 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noesis-ms/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "Noesis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noesis-ms/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/Noesis-ms/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
