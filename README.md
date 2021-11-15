@@ -1,26 +1,39 @@
-# Wetube REloaded
+# Wetube CloneCoding
 
-# Router
+---
 
-/controller export/
-<code>export const join = (req, res) => res.send("Join");</code>
+## Router
 
-/controller import/
-<code>import { join } from "../controllers/userController";</code>
+### controller export
 
-# url plan
+```JS
+export const join = (req, res) => res.send("Join");
+```
 
-/ -> Home
-/join -> Join
-/login -> Login
-/search -> Search
+### controller import
 
-/users/:id -> See User
-/users/logout -> Log Out
-/users/edit -> Edit MY Profile
-/users/delete -> Delete MY Profile
+```JS
+import { join } from "../controllers/userController";
+```
 
-/videos/:id -> See Video
-/videos/:id/edit -> Edit Video
-/videos/:id/delete -> Delete Video
-/videos/upload -> Upload Video
+---
+
+## url plan
+
+1. globalRouter
+   / -> Home
+   /join -> Join
+   /login -> Login
+   /search -> Search
+1. userRouter
+   /users/:id -> See User
+   /users/logout -> Log Out
+   /users/edit -> Edit MY Profile
+   /users/delete -> Delete MY Profile
+1. videoRouter
+   /videos/:id -> See Video
+   /videos/:id/edit -> Edit Video
+   /videos/:id/delete -> Delete Video
+   /videos/upload -> Upload Video
+
+---
