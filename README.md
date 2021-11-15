@@ -7,7 +7,10 @@
 export const join = (req, res) => res.send("Join");
 ```
 /controller import/
-<code>import { join } from "../controllers/userController";</code>
+```Javascript
+import { join } from "../controllers/userController";
+```
+
 
 # url plan
 
