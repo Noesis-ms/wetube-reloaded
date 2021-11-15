@@ -2,8 +2,6 @@
 
 ---
 
-## Router
-
 ### controller export
 
 ```JS
