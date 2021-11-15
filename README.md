@@ -15,16 +15,16 @@ import { join } from "../controllers/userController";
 # url plan
 
 1. / -> Home
-+/join -> Join
-+/login -> Login
-+/search -> Search
++ /join -> Join
++ /login -> Login
++ /search -> Search
 
 1. /users/:id -> See User
-+/users/logout -> Log Out
-+/users/edit -> Edit MY Profile
-+/users/delete -> Delete MY Profile
++ /users/logout -> Log Out
++ /users/edit -> Edit MY Profile
++ /users/delete -> Delete MY Profile
 
 1. /videos/:id -> See Video
-+/videos/:id/edit -> Edit Video
-+/videos/:id/delete -> Delete Video
-+/videos/upload -> Upload Video
++ /videos/:id/edit -> Edit Video
++ /videos/:id/delete -> Delete Video
++ /videos/upload -> Upload Video
