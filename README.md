@@ -3,8 +3,9 @@
 # Router
 
 /controller export/
-<code>export const join = (req, res) => res.send("Join");</code>
-
+```Javascript
+export const join = (req, res) => res.send("Join");
+```
 /controller import/
 <code>import { join } from "../controllers/userController";</code>
 
